@@ -8,4 +8,4 @@ User = get_user_model()
 class Note(models.Model):
     title = models.CharField(max_length=100)
     note = models.TextField()
-    author = models.ForeignKey(User, on_delete=models.CASCADE)
+    # author = models.ForeignKey(User, on_delete=models.CASCADE)

@@ -9,6 +9,6 @@ class NoteSerializer(serializers.ModelSerializer):
         fields = [
             'id',
             'title',
-            'author',
+            # 'author',
             'note'
         ]
